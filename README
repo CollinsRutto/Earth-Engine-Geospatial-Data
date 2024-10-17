@@ -1,6 +1,11 @@
 
 Explanation of the code and expected results:
 
+
+start by installing the earth engine API (You can use pip install on google collab or use npm install on Vs Code)
+
+Import geemap and earth engine 
+
 1. The code focuses on Nairobi, Kenya, using the coordinates [36.8219, -1.2921].
 
 2. It uses the Google Research Open Buildings Temporal dataset, which provides information about building presence and height over time.
