@@ -1,0 +1,9 @@
+import ee
+import geemap
+
+# Authenticate and initialize Earth Engine
+try:
+    ee.Initialize()
+except Exception as e:
+    ee.Authenticate()
+    ee.Initialize()
